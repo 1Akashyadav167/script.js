@@ -14,3 +14,18 @@ console.log(typeof "Hello")
 
 // typeof null is "object"
 // typeof undefined is undefined
+
+
+// primitive
+
+//7 ... String,number,boolean,bigInt,null, Undefined,Symbol
+
+
+// Non_primitive (Refrence)
+
+//Array,Objects,Functions
+
+// Javascrpit is dynamically type language
+
+// symbol give the uniaue value
+
