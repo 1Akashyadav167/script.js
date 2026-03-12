@@ -4,9 +4,9 @@ console.log(myArray.push("Batman"));
 
 // Array Method
 //.push()
-//.pop()
+//.pop()   remove the last element
 //.unshift()
-//.shift()
+//.shift()  remove the first element
 //.includes()
 //.indexOf()
 
