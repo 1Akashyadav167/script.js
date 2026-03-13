@@ -27,3 +27,28 @@ console.log(Obj3);
 
 console.log(Object.keys(dc)) // it will give in array data type
 console.log(Object.values(dc))
+
+
+const useInfo={
+    name:"Bruce",
+    Course:"Btech",
+    Age:33,
+    City:"Gotham"
+
+}
+// console.log(useInfo.name);
+
+const {name}=useInfo  // destructure
+console.log(name)
+
+// with differnet varible name
+const user = {
+  name: "Bruce",
+  age: 32
+};
+
+const { name: userName, age: userAge } = user;
+
+console.log(userName); // Bruce
+console.log(userAge);  // 32
+
